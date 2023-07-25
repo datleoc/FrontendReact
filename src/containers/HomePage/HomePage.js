@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import HomeHeader from './HomeHeader';
 
 class HomePage extends Component {
 
     render() {
         return (
-            <div> hello homepage</div>
+            <div>
+                <HomeHeader />
+            </div>
         );
     }
 
