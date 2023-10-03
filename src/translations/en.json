@@ -70,6 +70,42 @@
             "no-schedule": "No available appointment at this time, please choose another time!",
             "choose": "Choose ",
             "book-free": " and book (free)"
+        },
+        "extra-infor-doctor": {
+            "text-address": "Address of examination",
+            "price": "Examination price: ",
+            "detail": "More details",
+            "payment": "Patient can use the following payment method: ",
+            "hide-price": "Hide price"
+        },
+        "booking-modal": {
+            "title": "Information to book a medical appointment",
+            "fullName": "Fullname",
+            "phoneNumber": "Phone number",
+            "email": "Email",
+            "address": "Address",
+            "reason": "Reasons for medical examination",
+            "birthday": "Date of birth",
+            "gender": "Genders",
+            "btnConfirm": "Confirm",
+            "btnCancel": "Cancel",
+            "priceBooking": "Free booking",
+            "price": "Examination price: "
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Create more doctor's information",
+            "select-doctor": "Select doctor",
+            "intro": "Introduction:",
+            "add": "Create information",
+            "save": "Save information",
+            "price": "Price",
+            "payment": "Payment Method",
+            "province": "Province",
+            "nameClinic": "Clinic's name",
+            "addressClinic": "Clinic's address",
+            "note": "Note"
         }
     }
 }

@@ -5,6 +5,7 @@ import './DetailDoctor.scss';
 import { getDetailInforDoctor } from '../../../services/userService';
 import { LANGUAGES } from '../../../utils';
 import DoctorSchedule from './DoctorSchedule';
+import DoctorExtraInfor from './DoctorExtraInfor';
 
 class DetailDoctor extends Component {
 
@@ -36,7 +37,6 @@ class DetailDoctor extends Component {
     }
 
     render() {
-        console.log('hoi dan it channel: state', this.state);
         let { language } = this.props;
         let { detailDoctor } = this.state;
         let nameVi = '', nameEn = '';
@@ -76,7 +76,7 @@ class DetailDoctor extends Component {
                             />
                         </div>
                         <div className="content-right">
-
+                            <DoctorExtraInfor doctorIdFromParent={this.state.currentDoctorId} />
                         </div>
                     </div>
                     <div className="detail-infor-doctor">
